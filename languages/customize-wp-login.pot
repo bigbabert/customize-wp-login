@@ -1,0 +1,207 @@
+# Copyright (C) 2015 AlterTech
+# This file is distributed under the same license as the AlterTech package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Customize_WP_Login 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/customize-wp-login\n"
+"POT-Creation-Date: 2015-05-15 00:39+0100\n"
+"PO-Revision-Date: 2015-05-15 00:39+0100\n"
+"Last-Translator: Bigbabert <info@altertech.it>\n"
+"Language-Team: English <info@altertech.it>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/customize-wp-login-admin-class.php:159
+msgid "Customize WP-Login Settings"
+msgstr ""
+
+#: admin/customize-wp-login-admin-class.php:159
+msgid "WP-Login"
+msgstr ""
+
+#: admin/customize-wp-login-admin-class.php:164
+msgid "Default Style"
+msgstr ""
+
+#: admin/customize-wp-login-admin-class.php:165
+msgid "Round Style"
+msgstr ""
+
+#: admin/customize-wp-login-admin-class.php:166
+msgid "Flat Style"
+msgstr ""
+
+#: admin/customize-wp-login-admin-class.php:167
+msgid "Icon Style"
+msgstr ""
+
+#: admin/customize-wp-login-admin-class.php:169
+msgid "select style for login button"
+msgstr ""
+
+#: admin/customize-wp-login-admin-class.php:177
+msgid ""
+"* this icon will appear only with the <strong>Button Style Icon</strong>"
+msgstr ""
+
+#: admin/customize-wp-login-admin-class.php:216 admin/views/admin.php:26
+msgid "Settings"
+msgstr ""
+
+#: admin/customize-wp-login-admin-class.php:217
+msgid "Donate"
+msgstr ""
+
+#: admin/views/admin.php:17
+msgid "Settings saved."
+msgstr ""
+
+#: admin/views/admin.php:26
+msgid "Layout"
+msgstr ""
+
+#: admin/views/admin.php:36
+msgid "WP-Login Background Color"
+msgstr ""
+
+#: admin/views/admin.php:41
+msgid "WP-Login Text Color"
+msgstr ""
+
+#: admin/views/admin.php:46
+msgid "WP-Login Form Background"
+msgstr ""
+
+#: admin/views/admin.php:48
+msgid "you can use the value \"<strong>transparent</strong>\" instead of color"
+msgstr ""
+
+#: admin/views/admin.php:53
+msgid "WP-Login Logo Image"
+msgstr ""
+
+#: admin/views/admin.php:56
+msgid "Upload Image"
+msgstr ""
+
+#: admin/views/admin.php:57
+msgid "paste url or upload image"
+msgstr ""
+
+#: admin/views/admin.php:58
+msgid "Default Login Logo"
+msgstr ""
+
+#: admin/views/admin.php:58
+msgid "Custom Login Logo"
+msgstr ""
+
+#: admin/views/admin.php:63
+msgid "WP-Login Logo Link"
+msgstr ""
+
+#: admin/views/admin.php:66
+msgid ""
+"if checked remove \"<strong>link to WordPress</strong>\" & tag \"<strong>Use "
+"WordPress</strong>\" on logo"
+msgstr ""
+
+#: admin/views/admin.php:72
+msgid "WP-Login Links below"
+msgstr ""
+
+#: admin/views/admin.php:75
+msgid ""
+"if checked remove \"<strong>lost my password</strong>\" & "
+"\"<strong>register</strong>\" links"
+msgstr ""
+
+#: admin/views/admin.php:81
+msgid "WP-Login Icon Label"
+msgstr ""
+
+#: admin/views/admin.php:84
+msgid ""
+"if checked add <span class=\"dashicons dashicons-admin-users\"></span> to "
+"Username & <span class=\"dashicons dashicons-admin-network\"></span> to "
+"Password"
+msgstr ""
+
+#: admin/views/admin.php:90
+msgid "WP-Login Button Style"
+msgstr ""
+
+#: admin/views/admin.php:97
+msgid "WP-Login Button Icon"
+msgstr ""
+
+#: admin/views/admin.php:104
+msgid "WP-Login Custom CSS"
+msgstr ""
+
+#: admin/views/admin.php:105
+msgid "insert your custom css code"
+msgstr ""
+
+#: admin/views/admin.php:112
+msgid "Preview Login Page"
+msgstr ""
+
+#: admin/views/admin.php:115
+msgid "Customize WP-Login by "
+msgstr ""
+
+#: admin/views/admin.php:115
+msgid "AlterTech "
+msgstr ""
+
+#: public/customize-wp-login-class.php:78
+msgid "Customize WP-Login"
+msgstr ""
+
+#: public/customize-wp-login-class.php:79
+msgid ""
+"Customize WP-Login by AlterTech provide a visual editor to customize the wp-"
+"login page and if you want should enable social login."
+msgstr ""
+
+#: public/customize-wp-login-class.php:103
+msgid "Log In"
+msgstr ""
+
+#: public/customize-wp-login-class.php:116
+msgid "Username"
+msgstr ""
+
+#: public/customize-wp-login-class.php:117
+msgid "Password"
+msgstr ""
+
+#: public/customize-wp-login-class.php:118
+msgid "Remember Me"
+msgstr ""
+
+#: public/inc/requirements.php:178 public/inc/requirements.php:227
+msgid " Required, Detected "
+msgstr ""
+
+#: public/inc/requirements.php:291
+msgid "PHP Extensions Not Found: "
+msgstr ""
+
+#: public/inc/requirements.php:356
+msgid " Required"
+msgstr ""
+
+#: public/inc/requirements.php:461
+msgid "Minimum System Requirements not satisfied for: "
+msgstr ""

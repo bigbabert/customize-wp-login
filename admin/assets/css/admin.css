@@ -1,0 +1,141 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+/* Tabs */
+
+.ui-state-default {
+	display: inline;
+	border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(241, 241, 241);
+	border-width: 1px;
+	border-style:solid;
+	padding: 10px;
+	background: none repeat scroll 0% 0% rgb(228, 228, 228);
+}
+
+.ui-tabs-nav {
+    padding-bottom: 7px;
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.ui-tabs-anchor {
+	text-decoration: none;
+	color:black;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 24px;
+	color: rgb(127, 127, 127);
+}
+
+.ui-tabs-anchor:hover,.ui-state-active a {
+	color:black;
+}
+
+.ui-tabs-active, .ui-tabs-active:hover, .ui-tabs-active:active {
+    color: rgb(0, 0, 0);
+	background: rgb(239, 239, 239) !important;
+}
+
+.postbox h3 {
+	padding-left: 10px;
+}
+.wp-core-ui .notice.is-dismissible {
+z-index: 9999;
+}
+.wp-custom-preview {
+margin-left: 15%;
+display: block;
+max-width: 300px;
+text-align: center;
+}
+.wp-custom-preview img {
+width: 120px;
+max-height: 120px;
+}
+#TB_ajaxWindowTitle {
+text-align: center;
+}
+input#alter_save_wp.button.button-primary {
+font-size: 14px;
+line-height: 0.1;
+margin-right: 8px;
+margin-top:25px;
+max-width: 100%;
+float:left;
+}
+.alter_top_links {
+position: absolute;
+width: 30%;
+height: 120px;
+top: 44px;
+right: 0px;
+}
+.button-secondary#preview_login_image_button {
+color: #3a3a3a;
+font-size: 14px;
+line-height: 0.1;
+font-weight: bold;
+border-color: green;
+background: lightgreen;
+-webkit-box-shadow: inset 0 1px 0 green,0 1px 0 green;
+max-width: 100%;
+float:left;
+}
+.alter-plugin-head  {
+display: inline-block;
+position: absolute;
+top: 180px;
+right: 35px;
+}
+.alter-plugin-footer-mobile {
+display: inline-block;
+}
+
+.alter-plugin-head a, .alter-plugin-head a:active, .alter-plugin-head a:hover, .alter-plugin-head a:focus, .alter-plugin-head a:visited, .alter-plugin-footer-mobile a, .alter-plugin-footer-mobile a:active, .alter-plugin-footer-mobile a:hover, .alter-plugin-footer-mobile a:focus, .alter-plugin-footer-mobile a:visited {
+text-transform: none;
+text-decoration: none;
+font-weight: bold;
+color: green;
+}
+.alter-plugin-head img.alter_logo, .alter-plugin-footer-mobile img.alter_logo {
+position: relative;
+top: 20px;
+left: 7px
+}
+.alter-td {
+border-right: 1px dashed #ccc;
+border-top: 1px dashed #ccc;
+border-left: 1px dashed #ccc;
+border-bottom: 1px dashed #ccc;
+display: inline-block;
+}
+input[type=checkbox]#customize-wp-login-wp_links_below, input[type=checkbox]#customize-wp-login-wp_links_logo, input[type=checkbox]#customize-wp-login-wp_icon_label {
+width: 26px;
+height: 26px;
+}
+input[type="checkbox"]#customize-wp-login-wp_links_below:checked::before, input[type="radio"]#customize-wp-login-wp_links_below:checked::before, input[type="checkbox"]#customize-wp-login-wp_links_logo:checked::before, input[type="radio"]#customize-wp-login-wp_links_logo:checked::before, input[type="radio"]#customize-wp-login-wp_icon_label:checked::before, input[type="checkbox"]#customize-wp-login-wp_icon_label:checked::before {
+font-size: 31px;
+}
+input[type="checkbox"]:checked::before {
+content: '\f147';
+margin: -3px 0 0 -5px;
+color:lightgreen !important;
+}
+select#customize-wp-login_login_button_icons.icons  {
+font-family: 'dashicons' !important;
+height: 50px !important;
+width: 150px !important;
+}
+.alter_wp_description {
+margin-left: 12px;
+}
+.wp-color-result {
+height: 52px;
+margin: 0 16px 16px 0;
+padding-left: 60px;
+}
+.wp-color-result::after {
+font-size:14px;
+line-height: 52px;
+padding: 0 16px;
+}
+
