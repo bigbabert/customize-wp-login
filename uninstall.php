@@ -20,6 +20,7 @@ if ( is_multisite() ) {
 	$blogs = $wpdb->get_results( "SELECT blog_id FROM {$wpdb->blogs}", ARRAY_A );
 
     	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login-wp_login_bg`");
+    	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login-wp_login_bg_logo_image`");
     	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login-wp_login_label_color`");
     	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login-wp_login_form_bg`");
     	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login-wp_login_logo_image`");
@@ -29,7 +30,8 @@ if ( is_multisite() ) {
     	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login_custom_css`");
 	  $GLOBALS['wpdb']->query("OPTIMIZE TABLE `" .$GLOBALS['wpdb']->prefix."options`");
         delete_option('customize-wp-login-wp_login_bg');
-	delete_option('customize-wp-login-wp_login_label_color');
+        delete_option('customize-wp-login-wp_login_bg_logo_image');
+        delete_option('customize-wp-login-wp_login_label_color');
 	delete_option('customize-wp-login-wp_login_form_bg');
 	delete_option('customize-wp-login-wp_login_logo_image');
 	delete_option('customize-wp-login-wp_links_logo');
@@ -44,6 +46,7 @@ if ( is_multisite() ) {
 			switch_to_blog( $blog[ 'blog_id' ] );
 
      	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login-wp_login_bg`");
+    	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login-wp_login_bg_logo_image`");
     	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login-wp_login_label_color`");
     	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login-wp_login_form_bg`");
     	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login-wp_login_logo_image`");
@@ -53,6 +56,7 @@ if ( is_multisite() ) {
     	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login_custom_css`");
 	  $GLOBALS['wpdb']->query("OPTIMIZE TABLE `" .$GLOBALS['wpdb']->prefix."options`");
         delete_option('customize-wp-login-wp_login_bg');
+        delete_option('customize-wp-login-wp_login_bg_logo_image');
 	delete_option('customize-wp-login-wp_login_label_color');
 	delete_option('customize-wp-login-wp_login_form_bg');
 	delete_option('customize-wp-login-wp_login_logo_image');
@@ -70,6 +74,7 @@ if ( is_multisite() ) {
 } else {
 
     	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login-wp_login_bg`");
+    	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login-wp_login_bg_logo_image`");
     	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login-wp_login_label_color`");
     	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login-wp_login_form_bg`");
     	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login-wp_login_logo_image`");
@@ -79,6 +84,7 @@ if ( is_multisite() ) {
     	  $GLOBALS['wpdb']->query("DROP TABLE `".$GLOBALS['wpdb']->prefix."customize-wp-login_custom_css`");
 	  $GLOBALS['wpdb']->query("OPTIMIZE TABLE `" .$GLOBALS['wpdb']->prefix."options`");
         delete_option('customize-wp-login-wp_login_bg');
+        delete_option('customize-wp-login-wp_login_bg_logo_image');
 	delete_option('customize-wp-login-wp_login_label_color');
 	delete_option('customize-wp-login-wp_login_form_bg');
 	delete_option('customize-wp-login-wp_login_logo_image');

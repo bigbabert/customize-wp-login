@@ -1,18 +1,19 @@
 # Copyright (C) 2015 AlterTech
 # This file is distributed under the same license as the AlterTech package.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Customize_WP_Login 1.0.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/plugins/customize-wp-login\n"
-"POT-Creation-Date: 2015-05-15 00:39+0100\n"
-"PO-Revision-Date: 2015-05-15 00:39+0100\n"
+"POT-Creation-Date: 2015-05-20 19:02+0100\n"
+"PO-Revision-Date: 2015-05-17 13:02+0100\n"
 "Last-Translator: Bigbabert <info@altertech.it>\n"
 "Language-Team: English <info@altertech.it>\n"
 "Language: en_EN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.6\n"
+"X-Generator: Poedit 1.8\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
 "esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
@@ -20,174 +21,244 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: admin/customize-wp-login-admin-class.php:159
+#: admin/customize-wp-login-admin-class.php:156
 msgid "Customize WP-Login Settings"
 msgstr ""
 
-#: admin/customize-wp-login-admin-class.php:159
+#: admin/customize-wp-login-admin-class.php:156
 msgid "WP-Login"
 msgstr ""
 
-#: admin/customize-wp-login-admin-class.php:164
+#: admin/customize-wp-login-admin-class.php:161
 msgid "Default Style"
 msgstr ""
 
-#: admin/customize-wp-login-admin-class.php:165
+#: admin/customize-wp-login-admin-class.php:162
 msgid "Round Style"
 msgstr ""
 
-#: admin/customize-wp-login-admin-class.php:166
+#: admin/customize-wp-login-admin-class.php:163
 msgid "Flat Style"
 msgstr ""
 
-#: admin/customize-wp-login-admin-class.php:167
+#: admin/customize-wp-login-admin-class.php:164
 msgid "Icon Style"
 msgstr ""
 
-#: admin/customize-wp-login-admin-class.php:169
+#: admin/customize-wp-login-admin-class.php:166
 msgid "select style for login button"
 msgstr ""
 
-#: admin/customize-wp-login-admin-class.php:177
+#: admin/customize-wp-login-admin-class.php:174
 msgid ""
 "* this icon will appear only with the <strong>Button Style Icon</strong>"
 msgstr ""
 
-#: admin/customize-wp-login-admin-class.php:216 admin/views/admin.php:26
+#: admin/customize-wp-login-admin-class.php:217
 msgid "Settings"
 msgstr ""
 
-#: admin/customize-wp-login-admin-class.php:217
+#: admin/customize-wp-login-admin-class.php:218
 msgid "Donate"
 msgstr ""
 
-#: admin/views/admin.php:17
+#: admin/views/admin.php:19
 msgid "Settings saved."
 msgstr ""
 
-#: admin/views/admin.php:26
-msgid "Layout"
+#: admin/views/admin.php:28
+msgid "Settings Layout"
 msgstr ""
 
-#: admin/views/admin.php:36
+#: admin/views/admin.php:29
+msgid "Advanced Settings"
+msgstr ""
+
+#: admin/views/admin.php:39
 msgid "WP-Login Background Color"
 msgstr ""
 
 #: admin/views/admin.php:41
-msgid "WP-Login Text Color"
+msgid ""
+"if you use image the color is below \"<strong>transparent</strong>\" instead "
+"of color"
 msgstr ""
 
-#: admin/views/admin.php:46
-msgid "WP-Login Form Background"
+#: admin/views/admin.php:45
+msgid "WP-Login Background Image"
 msgstr ""
 
-#: admin/views/admin.php:48
-msgid "you can use the value \"<strong>transparent</strong>\" instead of color"
-msgstr ""
-
-#: admin/views/admin.php:53
-msgid "WP-Login Logo Image"
-msgstr ""
-
-#: admin/views/admin.php:56
+#: admin/views/admin.php:48 admin/views/admin.php:69
 msgid "Upload Image"
 msgstr ""
 
-#: admin/views/admin.php:57
+#: admin/views/admin.php:49 admin/views/admin.php:70
 msgid "paste url or upload image"
 msgstr ""
 
-#: admin/views/admin.php:58
-msgid "Default Login Logo"
+#: admin/views/admin.php:50
+msgid "Custom Login Background Image"
 msgstr ""
 
-#: admin/views/admin.php:58
-msgid "Custom Login Logo"
+#: admin/views/admin.php:54
+msgid "WP-Login Text Color"
 msgstr ""
 
-#: admin/views/admin.php:63
-msgid "WP-Login Logo Link"
+#: admin/views/admin.php:59
+msgid "WP-Login Form Background"
+msgstr ""
+
+#: admin/views/admin.php:61
+msgid "you can use the value \"<strong>transparent</strong>\" instead of color"
 msgstr ""
 
 #: admin/views/admin.php:66
+msgid "WP-Login Logo Image"
+msgstr ""
+
+#: admin/views/admin.php:71
+msgid "Default Login Logo"
+msgstr ""
+
+#: admin/views/admin.php:71
+msgid "Custom Login Logo"
+msgstr ""
+
+#: admin/views/admin.php:76
+msgid "WP-Login Logo Link"
+msgstr ""
+
+#: admin/views/admin.php:79
 msgid ""
 "if checked remove \"<strong>link to WordPress</strong>\" & tag \"<strong>Use "
 "WordPress</strong>\" on logo"
 msgstr ""
 
-#: admin/views/admin.php:72
+#: admin/views/admin.php:85
 msgid "WP-Login Links below"
 msgstr ""
 
-#: admin/views/admin.php:75
+#: admin/views/admin.php:88
 msgid ""
 "if checked remove \"<strong>lost my password</strong>\" & "
 "\"<strong>register</strong>\" links"
 msgstr ""
 
-#: admin/views/admin.php:81
+#: admin/views/admin.php:94
 msgid "WP-Login Icon Label"
 msgstr ""
 
-#: admin/views/admin.php:84
+#: admin/views/admin.php:97
 msgid ""
 "if checked add <span class=\"dashicons dashicons-admin-users\"></span> to "
 "Username & <span class=\"dashicons dashicons-admin-network\"></span> to "
 "Password"
 msgstr ""
 
-#: admin/views/admin.php:90
+#: admin/views/admin.php:103
 msgid "WP-Login Button Style"
 msgstr ""
 
-#: admin/views/admin.php:97
+#: admin/views/admin.php:110
 msgid "WP-Login Button Icon"
 msgstr ""
 
-#: admin/views/admin.php:104
+#: admin/views/admin.php:117
 msgid "WP-Login Custom CSS"
 msgstr ""
 
-#: admin/views/admin.php:105
+#: admin/views/admin.php:118
 msgid "insert your custom css code"
 msgstr ""
 
-#: admin/views/admin.php:112
+#: admin/views/admin.php:126
 msgid "Preview Login Page"
 msgstr ""
 
-#: admin/views/admin.php:115
+#: admin/views/admin.php:129 admin/views/admin.php:132
+#: admin/views/admin.php:182 admin/views/admin.php:185
 msgid "Customize WP-Login by "
 msgstr ""
 
-#: admin/views/admin.php:115
+#: admin/views/admin.php:129 admin/views/admin.php:132
+#: admin/views/admin.php:182 admin/views/admin.php:185
 msgid "AlterTech "
 msgstr ""
 
-#: public/customize-wp-login-class.php:78
+#: admin/views/admin.php:140
+msgid "Enable this section to use rewrite login rule fuature"
+msgstr ""
+
+#: admin/views/admin.php:144 admin/views/admin.php:162
+msgid "WP-Login Rewrite Rule"
+msgstr ""
+
+#: admin/views/admin.php:147
+msgid "If checked enable the box to add your rewrite slug"
+msgstr ""
+
+#: admin/views/admin.php:158
+msgid "Disable this section to remove rewrite login rule fuature"
+msgstr ""
+
+#: admin/views/admin.php:165
+msgid "If un-checked disable the box below and the feature"
+msgstr ""
+
+#: public/customize-wp-login-class.php:75
+#: public/customize-wp-login-class.php:505
 msgid "Customize WP-Login"
 msgstr ""
 
-#: public/customize-wp-login-class.php:79
+#: public/customize-wp-login-class.php:76
 msgid ""
 "Customize WP-Login by AlterTech provide a visual editor to customize the wp-"
-"login page and if you want should enable social login."
+"login page and if you want should enable social login. There is also a "
+"security feature that you can enable in Advanced Settings, to rewrite the "
+"url of the login."
 msgstr ""
 
-#: public/customize-wp-login-class.php:103
+#: public/customize-wp-login-class.php:102
 msgid "Log In"
 msgstr ""
 
-#: public/customize-wp-login-class.php:116
+#: public/customize-wp-login-class.php:115
 msgid "Username"
 msgstr ""
 
-#: public/customize-wp-login-class.php:117
+#: public/customize-wp-login-class.php:116
 msgid "Password"
 msgstr ""
 
-#: public/customize-wp-login-class.php:118
+#: public/customize-wp-login-class.php:117
 msgid "Remember Me"
+msgstr ""
+
+#: public/customize-wp-login-class.php:505
+msgid "Please upgrade to the latest version of WordPress to activate"
+msgstr ""
+
+#: public/customize-wp-login-class.php:523
+msgid "Customize WP-Login Rewrite Rules"
+msgstr ""
+
+#: public/customize-wp-login-class.php:526
+msgid "Networkwide default"
+msgstr ""
+
+#: public/customize-wp-login-class.php:559
+msgid "Login url"
+msgstr ""
+
+#: public/customize-wp-login-class.php:617
+#, php-format
+msgid ""
+"Your login page is now here: <strong><a href=\"%1$s\">%2$s</a></strong>. "
+"Bookmark this page!"
+msgstr ""
+
+#: public/customize-wp-login-class.php:632
+msgid "This feature is not enabled."
 msgstr ""
 
 #: public/inc/requirements.php:178 public/inc/requirements.php:227

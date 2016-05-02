@@ -1,18 +1,20 @@
 jQuery.noConflict();
-jQuery(document).ready(function ($) {
-	
-	jQuery('#customize-wp-login-upload_image_button').click(function() {
-	 	formfield = jQuery('#upload_image').attr('name');
-	 	tb_show('', 'media-upload.php?type=image&TB_iframe=true');
-	 	return false;
-	});
+jQuery(document).ready(function() {
+    jQuery('#customize-wp-login-upload_image_bg_button').click(function() {
+         targetfield = jQuery(this).prev('#upload_image1');
+         tb_show('', 'media-upload.php?type=image&amp;TB_iframe=true');
+         return false;
+    });
+    jQuery('#customize-wp-login-upload_image_button').click(function() {
+         targetfield = jQuery(this).prev('#upload_image');
+         tb_show('', 'media-upload.php?type=image&amp;TB_iframe=true');
+         return false;
+    });
  
-	window.send_to_editor = function(html) {
-	 imgurl = jQuery('img',html).attr('src');
-	 jQuery('#upload_image').val(imgurl);
-	 tb_remove();
-	 
-	 jQuery('#upload_image_thumb').html("<img height='65' src='"+imgurl+"'/>");
-	}
-   
-}); 
+    window.send_to_editor = function(html) {
+         imgurl = jQuery('img',html).attr('src');
+         jQuery(targetfield).val(imgurl);
+         tb_remove();
+    }
+ 
+});

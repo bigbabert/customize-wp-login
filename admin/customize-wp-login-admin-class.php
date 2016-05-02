@@ -65,7 +65,7 @@ class Customize_WP_Login_Admin {
 		// Add an action link pointing to the options page.
 		$plugin_basename = plugin_basename( plugin_dir_path( realpath( dirname( __FILE__ ) ) ) . $this->plugin_slug . '.php' );
 		add_filter( 'plugin_action_links_' . $plugin_basename, array( $this, 'add_action_links' ) );
-
+                
 	}
 
 	/**
@@ -127,7 +127,7 @@ class Customize_WP_Login_Admin {
 			wp_enqueue_script( $this->plugin_slug . '-admin-script', plugins_url( 'assets/js/admin.js', __FILE__ ), array( 'jquery', 'jquery-ui-tabs' ), Customize_WP_Login::VERSION );
                         wp_enqueue_script( $this->plugin_slug . '-color-picker-script', plugins_url('assets/js/color-picker-script.js', __FILE__ ), array( 'wp-color-picker' ), false, true );
                         wp_enqueue_script( $this->plugin_slug . '-upload-script', plugins_url('assets/js/upload-script.js', __FILE__ ), array( 'jquery','media-upload','thickbox' ), false, true );
-                        wp_enqueue_script( $this->plugin_slug . '-preview-script', plugins_url('assets/js/customize-wp-preview.js', __FILE__ ), array( 'jquery','media-upload','thickbox' ), false, true );
+                        wp_enqueue_script( $this->plugin_slug . '-preview-script', plugins_url('assets/js/customize-wp-preview.js', __FILE__ ), array( 'jquery','thickbox' ), false, true );
 	                wp_enqueue_script( $this->plugin_slug . '-dashicons-picker', plugins_url('assets/js/dashicons-picker.js', __FILE__ ), array( 'jquery' ), false );
 wp_enqueue_script('media-upload');
 wp_enqueue_script('thickbox');
@@ -180,6 +180,7 @@ wp_enqueue_script('thickbox');
 	         add_action( 'admin_init', 'customize_wp_login_register_settings' );
                  function customize_wp_login_register_settings() {
 	register_setting( 'customize-wp-login-options','customize-wp-login-wp_login_bg');
+	register_setting( 'customize-wp-login-options', 'customize-wp-login-wp_login_bg_logo_image');        
 	register_setting( 'customize-wp-login-options', 'customize-wp-login-wp_login_label_color');
 	register_setting( 'customize-wp-login-options', 'customize-wp-login-wp_login_form_bg');
 	register_setting( 'customize-wp-login-options', 'customize-wp-login-wp_login_logo_image');
@@ -189,8 +190,10 @@ wp_enqueue_script('thickbox');
         register_setting( 'customize-wp-login-options',  'customize-wp-login_login_button_style');
 	register_setting( 'customize-wp-login-options',  'customize-wp-login-dashicons_picker_settings');
 	register_setting( 'customize-wp-login-options', 'customize-wp-login_custom_css');
-       
-}	
+	register_setting( 'customize-wp-login-options-advanced-enabler', 'customize-wp-login-wp_enable_rewrite_rules');
+        
+}
+
 
         }
 	/**
@@ -199,6 +202,7 @@ wp_enqueue_script('thickbox');
 	 * @since    1.0.0
 	 */
 	public function display_plugin_admin_page() {
+            
 		include_once( 'views/admin.php' );
   }
 
@@ -210,7 +214,7 @@ wp_enqueue_script('thickbox');
 	public function add_action_links( $links ) {
 		return array_merge(
 				array(
-			'settings' => '<a href="' . admin_url( 'options-general.php?page=' . $this->plugin_slug ) . '">' . __( 'Settings' ) . '</a>',
+			'settings' => '<a href="' . admin_url( 'admin.php?page=' . $this->plugin_slug ) . '">' . __( 'Settings' ) . '</a>',
 			'donate' => '<a href="https://www.eatscode.com/" target="_blank" >' . __( 'Donate', $this->plugin_slug ) . '</a>'
 				), $links
 		);
@@ -241,6 +245,5 @@ wp_enqueue_script('thickbox');
 	public function filter_method_name() {
 
 	}
-
 
 }

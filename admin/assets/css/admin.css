@@ -51,6 +51,9 @@ text-align: center;
 width: 120px;
 max-height: 120px;
 }
+.wp-custom-preview_bg img {
+max-width: 472px !important;
+}
 #TB_ajaxWindowTitle {
 text-align: center;
 }
@@ -138,4 +141,6 @@ font-size:14px;
 line-height: 52px;
 padding: 0 16px;
 }
-
+.form-table th {
+  width: 250px;
+}
