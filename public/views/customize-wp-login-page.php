@@ -25,11 +25,11 @@ padding: 1% 24px 46px !important;
    <?php if( !get_option( 'customize-wp-login-wp_login_logo_image' ) ) {} else { ?>    
 .login h1 a {
 background-image: url(<?php echo esc_attr( get_option('customize-wp-login-wp_login_logo_image') ); ?>) !important;
-background-size:90% 100% !important;
+background-size: 190px !important;
 background-position: center top !important;
 background-repeat: no-repeat !important;
 color: #999 !important;
-height: 260px !important;
+min-height: 200px;
 font-size: 0px !important;
 margin: 0 !important;
 width: 100% !important;
@@ -246,5 +246,8 @@ content: "\f112";
 }
 
 <?php }  // end if/else ?>
+<?php if( !get_option( 'customize-wp-login_custom_css' ) ) {} else { ?> 
+<?php echo esc_attr( get_option('customize-wp-login_custom_css') ); 
+}?>
 </style>
 <!-- Customize WP-Login Style end -->

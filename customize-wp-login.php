@@ -10,7 +10,7 @@
  * Plugin Name:       Customize WP-Login
  * Plugin URI:        http://blog.altertech.it/customize-wp-login/
  * Description:       Customize WP-Login by AlterTech provide a visual editor to customize the wp-login page and if you want should enable social login. There is also a security feature that you can enable in Advanced Settings, to rewrite the url of the login.
- * Version:           1.2.6
+ * Version:           1.2.8
  * Author:            Bigbabert
  * Author URI:        http://blog.altertech.it/alberto-cocchiara/
  * Text Domain:       customize-wp-login
